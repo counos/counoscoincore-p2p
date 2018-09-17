@@ -51,22 +51,13 @@
     "CounosCoin",
     "counoscoincore"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/counos/counoscoincore-p2p.git"
-  },
+
   "dependencies": {
     "counoscoincore-lib": "file:/home/core/counoscoincore-lib",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
-  "devDependencies": {
-    "counoscoincore-build": "git://github.com/counos/counoscoincore-build.git",
-    "brfs": "^1.2.0",
-    "chai": "~1.10.0",
-    "gulp": "^3.8.10",
-    "sinon": "^1.12.2"
-  },
+  
   "license": "MIT"
 }
